@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yongshan/CLionProjects/LinuxIPC/counter.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/sem.h
+-
+sys/shm.h
+-
+sys/wait.h
+-
+sys/time.h
+-
+
